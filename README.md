@@ -1,6 +1,9 @@
 # Bardora
 A (maybe too much) lightweight unofficial Fedora spin.
 
+![Screenshot](Bardora-Blur.png)
+
+
 ## What it is?
 
 Bardora / Bartera is a unofficial spin based on Fedora. Because Fedora is more often updated and there are more releases than other distros, a Kickstart file is used for simplified installation. Bardora is built upon very lightweight Window Manager, Openbox with just commandline tools as well as some X programs, like Firefox, Hexchat and such.
