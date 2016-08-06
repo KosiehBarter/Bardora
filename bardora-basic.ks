@@ -1,4 +1,6 @@
-# Fedora - Kosieh Barter Spin
+#version=DEVEL
+
+## Bardora - Kosieh Barter Spin based on Fedora
 
 # X-Window and related
 xconfig --startxonboot
