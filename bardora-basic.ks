@@ -3,7 +3,7 @@
 ## Bardora - Kosieh Barter Spin based on Fedora
 
 ## Basic URL
-url --url=ftp://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/24/Everything/$basearch/os/
+url --url=http://mirror.vutbr.cz/fedora/releases/$releasever/Everything/$basearch/os/
 
 # X-Window and related
 xconfig --startxonboot
