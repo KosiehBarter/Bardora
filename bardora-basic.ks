@@ -58,6 +58,8 @@ nm-connection-editor
 %end
 
 ## Anaconda overrides
+%anaconda
 pwpolicy root --minlen=0 --minquality=1 --nostrict --nochanges --emptyok
 pwpolicy user --minlen=0 --minquality=1 --nostrict --nochanges --emptyok
 pwpolicy luks --minlen=0 --minquality=1 --nostrict --nochanges --emptyok
+%end
