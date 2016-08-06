@@ -45,6 +45,10 @@ fuse-sshfs
 blivet-gui
 gparted # BACKUP!
 
+# Storage - fylesystems
+gvfs-mtp
+simple-mtpfs
+
 # Network Manager related
 NetworkManager-tui
 NetworkManager-wifi
