@@ -1,5 +1,8 @@
 # Fedora - Kosieh Barter Spin
 
+## BASIC REPOSITORY - MODIFY TO SUIT YOUR NEEDS!
+repo --name=fimuni --baseurl=ftp://ftp.fi.muni.cz/pub/linux/fedora/linux/releases/24/Everything/x86_64/os/
+
 # X-Window and related
 xconfig --startxonboot
 
