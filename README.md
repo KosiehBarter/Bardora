@@ -1,4 +1,4 @@
-# Bardora
+# Bardora / Barterdora / Bartera
 A (maybe too much) lightweight unofficial Fedora spin.
 
 ## What it is?
