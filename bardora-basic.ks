@@ -50,8 +50,10 @@ NetworkManager-tui
 NetworkManager-wifi
 NetworkManager-ssh
 NetworkManager-pptp
+NetworkManager-l2tp
 NetworkManager-openvpn
 NetworkManager-bluetooth
+
 
 #Network Manager - GUI
 NetworkManager-openvpn-gnome
