@@ -76,3 +76,23 @@ pwpolicy root --minlen=0 --minquality=1 --notstrict --nochanges --emptyok
 pwpolicy user --minlen=0 --minquality=1 --notstrict --nochanges --emptyok
 pwpolicy luks --minlen=0 --minquality=1 --notstrict --nochanges --emptyok
 %end
+
+%post
+# Set PCManFM as default file manager directly.
+sed -i 's/Konqueror/PCManFM/' /etc/xdg/openbox/rc.xml
+sed -i 's/kfmclient\ openProfile\ filemanagement/pcmanfm/' /etc/xdg/openbox/rc.xml
+
+# Set locking command
+sed -i 's/<\/keyboard>/\n<keybind key="W-l"><action name="Execute"><command>dm-tool lock<\/command><\/action><\/keybind>\n<\/keyboard>/' /etc/xdg/openbox/rc.xml
+
+# Set run dialog command
+sed -i 's/<\/keyboard>/\n<keybind key="A-F2"><action name="Execute"><command>gmrun<\/command><\/action><\/keybind>\n<\/keyboard>/' /etc/xdg/openbox/rc.xml
+
+# Append several data so user can mount internal devices
+touch /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
+echo "[Mount a system-internal device]" >> /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
+echo "Identity=*" >> /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
+echo "Action=org.freedesktop.udisks2.*" >> /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
+echo "ResultActive=yes" >> /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
+
+%end
