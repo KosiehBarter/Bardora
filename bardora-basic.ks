@@ -33,7 +33,6 @@ ladspa-rev-plugins
 # System tools
 lxterminal
 lxpanel # basic panel from LXDE as a backup, when something fails.
-slock # Simple lock invoked by same command.
 pcmanfm
 beesu
 file-roller
