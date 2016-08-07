@@ -59,12 +59,15 @@ NetworkManager-openvpn
 NetworkManager-bluetooth
 
 
-#Network Manager - GUI
+# Network Manager - GUI
 NetworkManager-openvpn-gnome
 NetworkManager-ssh-gnome
 NetworkManager-l2tp-gnome
 NetworkManager-pptp-gnome
 nm-connection-editor
+
+# Settings for Openbox
+obconf
 
 %end
 
