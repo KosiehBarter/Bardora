@@ -86,7 +86,7 @@ sed -i 's/kfmclient\ openProfile\ filemanagement/pcmanfm/' /etc/xdg/openbox/rc.x
 sed -i 's/<\/keyboard>/\n<keybind key="W-l"><action name="Execute"><command>dm-tool lock<\/command><\/action><\/keybind>\n<\/keyboard>/' /etc/xdg/openbox/rc.xml
 
 # Set run dialog command
-sed -i 's/<\/keyboard>/\n<keybind key="A-F2"><action name="Execute"><command>gmrun<\/command><\/action><\/keybind>\n<\/keyboard>/' /etc/xdg/openbox/rc.xml
+sed -i 's/<\/keyboard>/\n<keybind key="W-r"><action name="Execute"><command>gmrun<\/command><\/action><\/keybind>\n<\/keyboard>/' /etc/xdg/openbox/rc.xml
 
 # Append several data so user can mount internal devices
 touch /etc/polkit-1/localauthority/50-local.d/50-filesystem-mount-system-internal.pkla
