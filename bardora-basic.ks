@@ -1,6 +1,7 @@
 #version=DEVEL
 
 ## Bardora - Kosieh Barter Spin based on Fedora
+## Shortened link: https://git.io/vFwIe
 
 ## Basic URL
 url --url=http://mirror.vutbr.cz/fedora/releases/$releasever/Everything/$basearch/os/
