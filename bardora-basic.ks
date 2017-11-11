@@ -12,7 +12,7 @@ xconfig --startxonboot
 services --enabled="chronyd"
 
 # Disable bootloader to be installed
-bootloader --disable
+bootloader --nombr
 
 %packages
 
