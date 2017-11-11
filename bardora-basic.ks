@@ -41,7 +41,6 @@ gmrun
 
 # Storage related
 fuse-sshfs
-blivet-gui
 gparted # BACKUP!
 
 # Storage - fylesystems
