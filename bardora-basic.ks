@@ -4,7 +4,7 @@
 ## Shortened link: https://git.io/vFwIe
 
 ## Basic URL
-url --url=http://mirror.vutbr.cz/fedora/releases/$releasever/Everything/$basearch/os/
+url --mirrorlist=https://mirrors.fedoraproject.org/mirrorlist?repo=fedora-26&arch=x86_64
 
 # X-Window and related
 xconfig --startxonboot
